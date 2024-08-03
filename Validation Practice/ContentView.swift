@@ -11,14 +11,18 @@ struct ContentView: View {
     @State private var email = ""
     @State private var password = ""
     
+    var isFormValid : Bool {
+        return !email.isEmpty && !password.isEmpty && email.isValidEmail
+    }
     
     var body: some View {
         Form {
             TextField("Email", text: $email)
-            TextField("Password", text: $password)
+                .textInputAutocapitalization(.never)
+            SecureField("Password", text: $password)
             Button("Login") {
                 
-            }.disabled(true)
+            }.disabled(!isFormValid)
         }
 
     }

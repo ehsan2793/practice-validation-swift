@@ -11,6 +11,7 @@
 		7CD1C91D2C5E9E2500FB3A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1C91C2C5E9E2500FB3A5F /* ContentView.swift */; };
 		7CD1C91F2C5E9E2800FB3A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD1C91E2C5E9E2800FB3A5F /* Assets.xcassets */; };
 		7CD1C9222C5E9E2800FB3A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD1C9212C5E9E2800FB3A5F /* Preview Assets.xcassets */; };
+		7CD1C92B2C5EA3C100FB3A5F /* String+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1C92A2C5EA3C100FB3A5F /* String+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7CD1C91C2C5E9E2500FB3A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CD1C91E2C5E9E2800FB3A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CD1C9212C5E9E2800FB3A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CD1C92A2C5EA3C100FB3A5F /* String+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 		7CD1C9192C5E9E2500FB3A5F /* Validation Practice */ = {
 			isa = PBXGroup;
 			children = (
-				7CD1C9282C5E9EAF00FB3A5F /* New Group */,
+				7CD1C9292C5EA0BB00FB3A5F /* Extentions */,
 				7CD1C91A2C5E9E2500FB3A5F /* Validation_PracticeApp.swift */,
 				7CD1C91C2C5E9E2500FB3A5F /* ContentView.swift */,
 				7CD1C91E2C5E9E2800FB3A5F /* Assets.xcassets */,
@@ -68,11 +70,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7CD1C9282C5E9EAF00FB3A5F /* New Group */ = {
+		7CD1C9292C5EA0BB00FB3A5F /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				7CD1C92C2C5EA7DB00FB3A5F /* Foundation */,
 			);
-			path = "New Group";
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		7CD1C92C2C5EA7DB00FB3A5F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7CD1C92A2C5EA3C100FB3A5F /* String+Extentions.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD1C91D2C5E9E2500FB3A5F /* ContentView.swift in Sources */,
+				7CD1C92B2C5EA3C100FB3A5F /* String+Extentions.swift in Sources */,
 				7CD1C91B2C5E9E2500FB3A5F /* Validation_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
